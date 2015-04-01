@@ -1,14 +1,4 @@
-==========================
-OnPage HUB API JAVA CLIENT
-==========================
-Java client to send Page to OnPage pagers
-
-
-OnPage HUB API Java Client allows to send Pages to the OnPage Pagers. For more information visit
-http://www.onpage.com. To use this script you have to change ENTERPRISE_NAME, TOKEN and <RECIPIENT_PAGER_NUMBER> Pager
-numbers to real values.
-
-Sample of usage (see \java\src\main\java\com\onset\onpage\hubapi\client\HubApiClient.java):
+package com.onset.onpage.hubapi.client;
 
 public class HubApiClient {
     public static void main(String[] args) {
